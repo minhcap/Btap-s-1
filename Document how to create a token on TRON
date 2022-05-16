@@ -1,0 +1,33 @@
+Document hướng dẫn cách tạo 1 token trên tronlink
+Bước 1: Tải extension Tron về browser và đăng ký 1 địa chỉ ví trên Tron
+Bước 2: Tải template TRC20 code và sau đó sửa đổi các thông tin liên quan đến token đó: totalsupply, token name, token symbol, decimal (1-18)
+Bước 3: Vào website của Tron sau đó đăng nhập ví mình đã tạo ở extension Tronlink, sau đó deploy contract bằng cách upload lên template TRC20 code mình đã sửa ở Bước 2, sau đó compile và chọn version: 0.5.10_Odyssey và bấm confirm. Sau khi bấm confirm sẽ hiện 5 dòng xanh là compiled success thì chúng ta đã compile thành công và đến lúc deploy contract. Bấm deploy sau đó chọn contract name là token và bấm confirm, sau khi bấm confirm xong thì hiện ra 1 cái pop up ở bên phải và tiếp tục bấm sign, lúc này sẽ hiện trên dòng code những dòng máu tím ở cuối, đợi đến khi code hiển thị dòng code màu xanh là contract address.
+Bước 4: Đến bước record token, thì bấm vào validate token ở website Tron, sau đó validate theo các bước sau:
++ chọn TRC20
++ nhập contract address chúng ta đã nhận được ở  bước 3
++ nhập website và email 
+Sau đó bấm next và bấm submit 
+Bước 5: Add token chúng ta vừa tạo lên tronlink. Vào extension chúng ta đã tải ở bước 1 sau đó ấn dấu cộng và thêm như bình thường thôi
+Bước 6: Verify TRC20 contract  
++ Gõ contract address chúng ta đã nhận được ở bước 3 
++ contract name: token 
++ compiler: 0.5
++ license : no license 
+Sau đó upload lại contract file lên
+Cuối cùng bấm verify và publish là đã hoàn thành xong 
+
+* Sau khi làm bài tập này thì em đã hiểu hơn 1 chút về các tạo ra 1 đồng token trên mạng testnet của tronlink 
+Dưới đây em cũng có 7 câu hỏi lquan về btap:
+1. Mạng testnet và mainnet khác gì nhau và tsao phải có 2 mạng này 
+
+2. Điểm Khác biệt của TRC10 - TRC20 là gì ?
+3. Làm sao để thay đổi nội dung của Contract ?
+4. Decimal như thế nào là hợp lý ?
+5. Decimal là gì ?
+6. Làm thể nào để điều chỉnh lượng cung Token ?
+7. Tại sao lại có chức năng là burn token ?
+
+
+
+
+
